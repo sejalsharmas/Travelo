@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>form for Nagpur to  Pune</title>
+</head>
+<body>
+    <form>
+        <label for="inputFullName"><b>Enter IRCTC Username</b> </label>
+        <input type="text" id="inputFullName" />
+        <br/>
+        <br/>
+
+        <label for="inputPassword"><b>Enter IRCTC password:</b></label>
+        <input type="password" id="inputPassword" />
+        <br/>
+        <br/>
+        <h2>Contact Information</h2>
+        <label for="inputEmail"><b>Enter Email:</b></label>
+        <input type="email" placeholder="Enter Email" required="true" />
+        <br/>
+        <br/>
+        <label for="inputNumber"><b>Enter Mobile Number:</b></label>
+        <input type="text" id="inputNumber" required="true"/>
+        <br/>
+        <br/><label for="fileInput"> <b>Upload Your id proof:</b></label>
+        <input type="file" id="fileInput" accept="application/pdf" required="true" />
+        <br/>
+        <br/>
+        <h2>Offer & Discounts</h2>
+        <label for="inputcoupon"><b>Coupon:</b></label>
+        <input type="text" placeholder="Have a Coupon Code" />
+        <input type="submit" value="Apply" />
+        <br/>
+        <br/>
+        <h2>Adittional preferences</h2>
+        <br/>
+        <b>Choose one option for assured lower berth or same coach</b>
+        <br/>
+        <input type="radio" name="seat" id="seat" />
+        <label for="berth"><b>None</b></label>
+        <br />
+        <br/>
+        <input type="radio" name="seat" id="seat" />
+        <label for="berth"><b>Book,only if atleast 1 lower berth is alloted</b></label>
+        <h2>Your State</h2>
+        <br/>
+        <input list="stateoptions" />
+
+        <datalist id="stateOptions">
+        <option>Choose Your State :</option>
+        <option>Maharashtra</option>
+        <option>Punjab</option>
+        <option>Uttar Pradesh</option>
+        <option>Madhya Pradesh</option>
+        </datalist>
+       
+        
+
+      </form>
+    
+</body>
+</html>
